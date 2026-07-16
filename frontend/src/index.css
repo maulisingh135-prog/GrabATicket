@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #16161a;
+  --paper: #fbf8f2;
+  --surface: #ffffff;
+  --accent: #c8352e;
+  --accent-dark: #9c2621;
+  --gold: #b5893a;
+  --muted: #706a5f;
+  --line: #e7e0d1;
+}
+
+/* Dark mode: same variable names, different values, toggled via a
+   `.dark` class on <html> (see ThemeContext). Because every component
+   already reads colors through these CSS custom properties, nothing
+   else needs to change for dark mode to apply site-wide. */
+html.dark {
+  --ink: #f3f1ea;
+  --paper: #111014;
+  --surface: #1a191f;
+  --accent: #e2564d;
+  --accent-dark: #f3766c;
+  --gold: #d6ab5f;
+  --muted: #a19c92;
+  --line: #302e37;
+}
+
+html {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Ticket stub perforation: dashed tear line with notch circles cut on each side */
+.ticket-perforation {
+  position: relative;
+  border-top: 2px dashed var(--line);
+}
+.ticket-perforation::before,
+.ticket-perforation::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  background: var(--paper);
+  border-radius: 50%;
+}
+.ticket-perforation::before { left: -8px; }
+.ticket-perforation::after { right: -8px; }
+
+.seat {
+  transition: transform 0.12s ease, background-color 0.12s ease;
+}
+.seat:hover:not(.seat-taken) {
+  transform: translateY(-2px);
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}

@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "id": "user-1784219733365",
+      "name": "mauli singh",
+      "email": "maulisingh135@gmail.com",
+      "phone": "9987234800",
+      "password": "cb950d374ce7d1f6557aa3058f1cb97fc3dc8029ec1ce6a200fed85de90715368394c1fd41c807410c4874299c40cf17048ea9eed3a7f439fab164d33e3975b7",
+      "createdAt": "2026-07-16T16:35:33.471Z"
+    }
+  ],
+  "movies": [
+    {
+      "id": "movie-1",
+      "title": "Black Panther",
+      "genre": "Action/Adventure/Sci-Fi",
+      "rating": 8.7,
+      "votes": "612K",
+      "languages": "English",
+      "age": "UA13+",
+      "duration": "2h 14m",
+      "description": "T'Challa returns home to the hidden kingdom of Wakanda to claim his throne, but a vengeful challenger threatens to tear the nation apart and expose it to the world.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-2",
+      "title": "The Sheep Detectives",
+      "genre": "Comedy/Family/Mystery",
+      "rating": 7.3,
+      "votes": "8.4K",
+      "languages": "English",
+      "age": "U",
+      "duration": "1h 32m",
+      "description": "A flock of unusually sharp-eyed sheep turn amateur sleuths when a mystery rattles their quiet farm, following clues (and each other) to crack the case.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-3",
+      "title": "Bhoot Bangla",
+      "genre": "Horror/Comedy",
+      "rating": 6.8,
+      "votes": "14.2K",
+      "languages": "Hindi",
+      "age": "UA13+",
+      "duration": "2h 10m",
+      "description": "A haunted mansion, a nervous family, and one overconfident ghost-hunter collide in a spooky, laugh-out-loud misadventure through a bungalow that refuses to stay quiet.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-4",
+      "title": "Homebound",
+      "genre": "Drama",
+      "rating": 8.9,
+      "votes": "3.1K",
+      "languages": "Hindi",
+      "age": "UA13+",
+      "duration": "2h 4m",
+      "description": "Two childhood friends chase a shared dream of a better life, only to find their bond tested by ambition, circumstance, and the long road home.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-5",
+      "title": "The Drama",
+      "genre": "Comedy/Drama",
+      "rating": 7.1,
+      "votes": "5.6K",
+      "languages": "English",
+      "age": "UA16+",
+      "duration": "1h 34m",
+      "description": "A picture-perfect wedding starts to unravel in real time as old wounds, awkward truths, and one very bad night threaten to upstage the happy couple.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-6",
+      "title": "Project Hail Mary",
+      "genre": "Sci-Fi/Adventure",
+      "rating": 8.6,
+      "votes": "22.7K",
+      "languages": "English",
+      "age": "UA13+",
+      "duration": "2h 21m",
+      "description": "A lone astronaut wakes up light-years from home with no memory of his mission and must piece together the truth before humanity runs out of time.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-7",
+      "title": "Cocktail 2",
+      "genre": "Romance/Comedy/Drama",
+      "rating": 6.5,
+      "votes": "9.8K",
+      "languages": "Hindi",
+      "age": "UA16+",
+      "duration": "2h 18m",
+      "description": "Old flames and new complications mix in a breezy love triangle, as three friends discover that second chances can be even messier than the first.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-8",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "Action/Adventure/Sci-Fi",
+      "rating": 8.3,
+      "votes": "18.9K",
+      "languages": "English",
+      "age": "UA13+",
+      "duration": "2h 15m",
+      "description": "With his identity and his world turned upside down, a young hero has to rebuild his life from scratch while a new threat rises across the city skyline.",
+      "nowShowing": true
+    },
+    {
+      "id": "movie-9",
+      "title": "The Odyssey",
+      "genre": "Adventure/Fantasy",
+      "rating": 8.9,
+      "votes": "1.2K",
+      "languages": "English",
+      "age": "UA13+",
+      "duration": "2h 30m",
+      "description": "A mythic voyage home, reborn for the big screen: a war-weary king battles monsters, gods, and the sea itself in a sweeping, larger-than-life epic built for IMAX.",
+      "nowShowing": true
+    }
+  ],
+  "theaters": [
+    {
+      "id": "theater-1",
+      "name": "INOX Riverside Mall",
+      "location": "Hazratganj, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "2.0 km",
+      "cancellation": "Allows cancellation",
+      "showtimes": [
+        {
+          "id": "show-1",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "12:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-2",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "3:15 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-3",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-4",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-5",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-6",
+          "movieId": "movie-4",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-7",
+          "movieId": "movie-4",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-8",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-9",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "11:35 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-9001",
+          "movieId": "movie-9",
+          "date": "2026-07-14",
+          "startTime": "10:00 AM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-9002",
+          "movieId": "movie-9",
+          "date": "2026-07-14",
+          "startTime": "7:00 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "id": "theater-2",
+      "name": "PVR Phoenix Palassio",
+      "location": "Vibhuti Khand, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "3.3 km",
+      "cancellation": "Non-cancellable",
+      "showtimes": [
+        {
+          "id": "show-452",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "3:15 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-453",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-454",
+          "movieId": "movie-4",
+          "date": "2026-07-14",
+          "startTime": "12:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-455",
+          "movieId": "movie-4",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-456",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "10:15 AM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-457",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "10:15 AM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-458",
+          "movieId": "movie-7",
+          "date": "2026-07-14",
+          "startTime": "7:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-459",
+          "movieId": "movie-8",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "id": "theater-3",
+      "name": "Cinepolis Fun Republic",
+      "location": "Gomti Nagar, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "1.5 km",
+      "cancellation": "Allows cancellation",
+      "showtimes": [
+        {
+          "id": "show-930",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "7:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-931",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-932",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "10:15 AM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-933",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-934",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "7:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-935",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "3:15 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-936",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-937",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "3:15 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-938",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-9003",
+          "movieId": "movie-9",
+          "date": "2026-07-14",
+          "startTime": "1:00 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "theater-4",
+      "name": "INOX Wave Mall",
+      "location": "Alambagh, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "4.1 km",
+      "cancellation": "Allows cancellation",
+      "showtimes": [
+        {
+          "id": "show-1416",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-1417",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-1418",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "12:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-1419",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-1420",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-1421",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "11:35 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-1422",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-1423",
+          "movieId": "movie-7",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-1424",
+          "movieId": "movie-8",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "id": "theater-5",
+      "name": "Miraj Cinemas Gomti Nagar",
+      "location": "Vipin Khand, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "3.8 km",
+      "cancellation": "Non-cancellable",
+      "showtimes": [
+        {
+          "id": "show-1903",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "12:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-1904",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "4:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-1905",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-1906",
+          "movieId": "movie-4",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-1907",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "1:45 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-1908",
+          "movieId": "movie-5",
+          "date": "2026-07-14",
+          "startTime": "12:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-1909",
+          "movieId": "movie-6",
+          "date": "2026-07-14",
+          "startTime": "1:45 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-1910",
+          "movieId": "movie-7",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-1911",
+          "movieId": "movie-8",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "id": "theater-6",
+      "name": "PVR Amar Shaheed Path",
+      "location": "Sushant Golf City, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "logo": "",
+      "distance": "5.6 km",
+      "cancellation": "Allows cancellation",
+      "showtimes": [
+        {
+          "id": "show-2368",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "11:35 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-2369",
+          "movieId": "movie-1",
+          "date": "2026-07-14",
+          "startTime": "10:15 AM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-2370",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "9:00 PM",
+          "format": "3D",
+          "audioType": "Dolby Atmos",
+          "price": 320
+        },
+        {
+          "id": "show-2371",
+          "movieId": "movie-2",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-2372",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "11:35 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-2373",
+          "movieId": "movie-3",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "IMAX",
+          "audioType": "Dolby Atmos",
+          "price": 380
+        },
+        {
+          "id": "show-2374",
+          "movieId": "movie-7",
+          "date": "2026-07-14",
+          "startTime": "10:30 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        },
+        {
+          "id": "show-2375",
+          "movieId": "movie-7",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "2D",
+          "audioType": "Dolby Atmos",
+          "price": 260
+        },
+        {
+          "id": "show-2376",
+          "movieId": "movie-8",
+          "date": "2026-07-14",
+          "startTime": "6:45 PM",
+          "format": "2D",
+          "audioType": "Dolby 5.1",
+          "price": 220
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1784220360596",
+      "userId": "user-1784219733365",
+      "movieId": "movie-2",
+      "title": "The Sheep Detectives",
+      "poster": "/src/assets/poster-sheep-detectives.jpg",
+      "cinema": "INOX Riverside Mall",
+      "date": "2026-07-16",
+      "time": "9:00 PM",
+      "datetime": "Thursday, July 16, 2026 | 9:00 PM",
+      "seats": [
+        "B4",
+        "B5"
+      ],
+      "quantity": 2,
+      "total": 1069,
+      "ticket": 1020,
+      "fee": 49,
+      "format": "2D",
+      "paymentMethod": "Credit/Debit Card",
+      "createdAt": "2026-07-16T16:46:00.596Z"
+    }
+  ]
+}

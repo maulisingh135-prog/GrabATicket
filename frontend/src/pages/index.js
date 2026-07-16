@@ -1,0 +1,10 @@
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as Signup } from "./Signup";
+export { default as Dashboard } from "./Dashboard";
+export { default as MovieDetails } from "./MovieDetails";
+export { default as SeatMatrix } from "./SeatMatrix";
+export { default as Wishlist } from "./Wishlist";
+export { default as BookingHistory } from "./BookingHistory";
+export { default as SearchResults } from "./SearchResults";
+export { default as NotFound } from "./NotFound";
