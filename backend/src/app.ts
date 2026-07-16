@@ -19,7 +19,8 @@ const JWT_SECRET = config.jwtSecret;
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173",
+      "https://grab-a-ticket-nine.vercel.app",],
   })
 );
 app.use(cookieParser());
