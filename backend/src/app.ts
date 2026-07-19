@@ -296,7 +296,7 @@ app.post(
       await writeDatabase(db);
 
       const token = createToken(user);
-      res.cookie("token", token, { httpOnly: true, sameSite: "none",secure: true, maxAge: 1000 * 60 * 60 * 24 * 7 });
+      res.cookie("token", token, { httpOnly: true, sameSite: "lax", maxAge: 1000 * 60 * 60 * 24 * 7 });
 
       return res.status(201).json({ user: sanitizeUser(user), token });
     } catch (error) {
@@ -322,7 +322,7 @@ app.post(
       }
 
       const token = createToken(user);
-      res.cookie("token", token, { httpOnly: true, sameSite: "none",secure: true, maxAge: 1000 * 60 * 60 * 24 * 7 });
+      res.cookie("token", token, { httpOnly: true, sameSite: "lax", maxAge: 1000 * 60 * 60 * 24 * 7 });
       return res.json({ user: sanitizeUser(user), token });
     } catch (error) {
       console.error(error);
